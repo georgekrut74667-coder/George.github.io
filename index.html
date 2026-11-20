@@ -1,0 +1,136 @@
+
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MiniSite</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="logo" href="#">MiniSite</a>
+      <nav class="nav">
+        <a href="#features">Преимущества</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+      <a class="btn btn--primary" href="#contact">Заказать</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1>Красивый лендинг на HTML и CSS</h1>
+          <p>
+            Простой шаблон: аккуратная типографика, карточки, адаптивность и приятные
+            цвета.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#features">Посмотреть</a>
+            <a class="btn btn--ghost" href="#gallery">Галерея</a>
+          </div>
+        </div>
+        <div class="hero__card" aria-hidden="true">
+          <div class="stat">
+            <div class="stat__num">120+</div>
+            <div class="stat__label">шаблонов</div>
+          </div>
+          <div class="stat">
+            <div class="stat__num">99%</div>
+            <div class="stat__label">вовлечённость</div>
+          </div>
+          <div class="stat">
+            <div class="stat__num">24/7</div>
+            <div class="stat__label">поддержка</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Почему это удобно</h2>
+          <p>Собрано так, чтобы было легко расширять под свои проекты.</p>
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <h3>Адаптив</h3>
+            <p>Сетка и шрифты автоматически подстраиваются под экран.</p>
+          </article>
+          <article class="card">
+            <h3>Читаемая структура</h3>
+            <p>Понятные классы и аккуратные блоки для дальнейшей правки.</p>
+          </article>
+          <article class="card">
+            <h3>Стили из коробки</h3>
+            <p>Кнопки, карточки, тени и мягкие градиенты.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2>Галерея</h2>
+          <p>Заглушки вместо картинок, чтобы сразу видеть дизайн.</p>
+        </div>
+
+        <div class="gallery">
+          <div class="tile tile--a">Шаблон A</div>
+          <div class="tile tile--b">Шаблон B</div>
+          <div class="tile tile--c">Шаблон C</div>
+          <div class="tile tile--d">Шаблон D</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="contact">
+          <div>
+            <h2>Контакты</h2>
+            <p class="muted">Можешь заменить текст и отправку формы на свою.</p>
+            <ul class="list">
+              <li><b>Email:</b> hello@example.com</li>
+              <li><b>Телефон:</b> +7 (000) 123-45-67</li>
+              <li><b>Город:</b> Москва</li>
+            </ul>
+          </div>
+
+          <form class="form" onsubmit="return false;">
+            <label class="field">
+              <span>Имя</span>
+              <input type="text" placeholder="Иван" required />
+            </label>
+            <label class="field">
+              <span>Email</span>
+              <input type="email" placeholder="ivan@mail.com" required />
+            </label>
+            <label class="field">
+              <span>Сообщение</span>
+              <textarea rows="4" placeholder="Напишите что-нибудь..." required></textarea>
+            </label>
+            <button class="btn btn--primary" type="submit">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© 2026 MiniSite. Все права защищены.</span>
+      <a href="#" class="link">Наверх</a>
+    </div>
+  </footer>
+</body>
+</html>
+```
+
